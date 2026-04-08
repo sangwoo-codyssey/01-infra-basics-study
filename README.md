@@ -154,7 +154,7 @@ drwxr-xr-x@ 11 sangwoo  staff   352  3월 31 20:04 .git
 
 ### 4-3. 디렉터리 이동
 
-![스크린샷]([스크린샷](screenshots/terminal-03.png))
+![스크린샷](screenshots/terminal-03.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir ~ % pwd
@@ -177,7 +177,7 @@ sangwoo@sangwoo-MacBookAir codyssey %
 
 ### 4-4. 디렉터리 생성
 
-![스크린샷]([스크린샷](screenshots/terminal-04.png))
+![스크린샷](screenshots/terminal-04.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir 01-infra-basics-study % mkdir test-dir/sub1/sub2
@@ -194,7 +194,7 @@ test-dir/sub1/sub2:
 
 ### 4-5. 파일/디렉터리 복사
 
-![스크린샷]([스크린샷](screenshots/terminal-05.png))
+![스크린샷](screenshots/terminal-05.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir 01-infra-basics-study % mkdir ./copy-test
@@ -217,7 +217,7 @@ total 16
 
 ### 4-6. 이동 / 이름 변경
 
-![스크린샷]([스크린샷](screenshots/terminal-06.png))
+![스크린샷](screenshots/terminal-06.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir copy-test % mv copied.txt renamed.txt
@@ -236,7 +236,7 @@ drwxr-xr-x  3 sangwoo  staff    96  3월 31 22:50 test-dir
 
 ### 4-7. 삭제
 
-![스크린샷]([스크린샷](screenshots/terminal-07.png))
+![스크린샷](screenshots/terminal-07.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir 01-infra-basics-study % ls
@@ -251,8 +251,8 @@ copy-test	copy-test2	README.md
 
 ### 4-8. 파일 내용 확인
 
-![스크린샷]([스크린샷](screenshots/terminal-08-1.png))
-![스크린샷]([스크린샷](screenshots/terminal-08-2.png))
+![스크린샷](screenshots/terminal-08-1.png)
+![스크린샷](screenshots/terminal-08-2.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir copy-test % cat original.txt 
@@ -273,7 +273,7 @@ sangwoo@sangwoo-MacBookAir copy-test % tail -n 5 ./../README.md
 
 ### 4-9. 빈 파일 생성
 
-![스크린샷]([스크린샷](screenshots/terminal-09.png))
+![스크린샷](screenshots/terminal-09.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir copy-test % touch empty 
@@ -288,7 +288,7 @@ sangwoo@sangwoo-MacBookAir copy-test % cat empty
 
 ### 5-1. 파일 권한 확인 및 변경
 
-![스크린샷]([스크린샷](screenshots/perm-01.png))
+![스크린샷](screenshots/perm-01.png)
 
 **권한 표기법:**
 
@@ -356,7 +356,7 @@ Hello World
 
 ### 5-2. 디렉터리 권한 변경
 
-![스크린샷]([스크린샷](screenshots/perm-02.png))
+![스크린샷](screenshots/perm-02.png)
 
 ```bash
 sangwoo@sangwoo-MacBookAir 01-infra-basics-study % mkdir -p test_dir/sub_dir
